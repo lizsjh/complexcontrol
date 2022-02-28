@@ -25,7 +25,7 @@ botui.message.add({
     return botui.message.add({
         delay:900,
         loading: true,
-        content:'I do not understand what you said because your message might have been unclear and my ability process the message is not perfect. Can you try again?'
+        content:'I do not understand what you said because your message might have been unclear and my ability to process the message is not perfect. Can you try again?'
     });
 }).then(function(){
     return botui.action.text({
